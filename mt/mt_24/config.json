@@ -1,0 +1,27 @@
+{
+    "activation":	"lrelu",
+    "alpha":	"auto",
+    "batch_size":	128,
+    "experiment_id":	"CON-74767",
+    "gamma":	0.99,
+    "hidden_sizes":	[
+        256,
+        256,
+        256,
+        256
+    ],
+    "hide_task_id":	true,
+    "log_every":	20000,
+    "lr":	0.0001,
+    "multihead_archs":	true,
+    "popart_beta":	0.0003,
+    "replay_size":	1000000,
+    "run_kind":	"mt",
+    "seed":	12,
+    "steps_per_task":	2000000,
+    "target_output_std":	0.089,
+    "task_list":	null,
+    "tasks":	"CW10",
+    "use_layer_norm":	true,
+    "use_popart":	false
+}
